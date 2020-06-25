@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sistemi per komunikim me ane te videos</title>
+    <link rel="stylesheet" type="text/css" href="css/resset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <img class="img-responsive" src="http://www.airportpristina.com/themes/simpleweb-startit/assets/images/limak/logo.svg" alt="" style="padding:5px;">
+    </div>
+
+    <div id="selectRoom">
+        <h2>Sistemi per komunikim me ane te videos</h2>
+        <label>Shtyp numrin e dhomes</label>
+        <input id="roomNumber" type="text" />
+        <button id="goRoom">Vazhdo</button>
+    </div>
+
+    <div id="consultingRoom" style="display:none">
+        <video id="remoteVideo" autoplay width="600px" height="600px"></video>
+        <video id="localVideo" autoplay width="200px" height="200px" style="margin-left:-604px;"></video>
+        <button id="stopCall" onclick="window.location.href = 'http://localhost:3000/';">
+        <div class="circle">
+            <div class="circle-mood"></div>
+        </div>
+        </button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>

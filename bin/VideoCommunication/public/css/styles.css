@@ -1,0 +1,85 @@
+html {
+    background-color: #8BE095;
+    margin-left: 5px;
+}
+
+h1,
+.header {
+    margin: 15px 10px;
+    font-size: 1.4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+}
+
+.header {
+    margin-left: 100px;
+}
+
+#stopCall {
+    margin-left: 60px;
+    border: none;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 270px;
+    transform: translate(-50%, -50%);
+}
+
+.circle-mood {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-image: url(/images/512.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.circle-mood:hover {
+    opacity: 1;
+}
+
+#selectRoom {
+    margin: 10px 15px;
+}
+
+#roomNumber {
+    padding: 7px;
+    padding-bottom: 3px;
+}
+
+#remoteVideo {
+    margin-top: -70px;
+}
+
+#goRoom {
+    background-color: #305C5C;
+    border: 1px solid #305C5C;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 7px;
+    font-family: verdana;
+    font: bold;
+    text-align: center;
+}
+
+#goRoom:hover {
+    border: 2px solid rgba(122, 138, 153, 0.3);
+}
